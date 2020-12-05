@@ -1,5 +1,5 @@
 import React from 'react'
-import videofile from '../../assets/seoulcity.mp4'
+import videofile from '../../assets/seoulcity_originalfile.mp4'
 import Typical from 'react-typical'
 import {HeadlineContainer, TypicalContainer} from './headline.styles'
 

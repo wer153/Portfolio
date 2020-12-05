@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const HeadlineContainer = styled.div`
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    margin-bottom: 5%;
+    overflow: hidden;
 `
 export const TypicalContainer = styled.div`
     color: white;

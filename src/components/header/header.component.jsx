@@ -1,13 +1,13 @@
 import React from 'react'
 import { HeaderContainer, OptionContainer, LogoContainer, OptionsContainer, LinkContainer } from './header.styles'
-
+import { ReactComponent as Logo } from '../../assets/home.svg'
 const Header = ({headline, aboutme, projects, skills, contact}) => {
     return(
           
     <HeaderContainer current={headline}>
         {console.log(headline, aboutme, projects, skills, contact)}
         <LogoContainer to='/'>
-            MINKI
+            {!headline && <Logo/>}
         </LogoContainer>
         <OptionsContainer>
             <LinkContainer  to='/aboutme'>
