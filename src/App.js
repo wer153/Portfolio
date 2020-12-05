@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { Switch, Route, useParams } from 'react-router-dom'
 
 import './App.css';
 import Header from './components/header/header.component';
@@ -6,25 +7,23 @@ import Headline from './components/headline/headline.component';
 import Profile from './components/profile/profile.component'
 import Portfolio from './components/portfolio/portfolio.component';
 
+
 function App() {
-  const [visible, setVisible] = useState(false)
-
-  const handleScroll = () => {
-    setVisible(window.pageYOffset>0)}
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  })
-
+  let { id } = useParams()
   return (
     <div className="App">
-      <Header visible={visible}/>
-      <Headline/>
-      <Profile/>
-      <Portfolio/>
+      <Switch>
+        <Route exact path='/' render={()=><Header headline/>}/>
+        <Route exact path='/aboutme' render={()=><Header aboutme/>}/>
+        <Route exact path='/projects' render={()=><Header projects/>}/>
+        <Route exact path='/skills' render={()=><Header skills/>}/>
+        <Route exact path='/contact' render={()=><Header contact/>}/>
+      </Switch>
+      <Switch>
+        <Route exact path='/' component={Headline}/>
+        <Route exact path='/aboutme' component={Profile}/>
+        <Route exact path='/projects' component={Portfolio}/>
+      </Switch>
     </div>
   );
 }

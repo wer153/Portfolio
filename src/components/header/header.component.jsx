@@ -1,17 +1,30 @@
 import React from 'react'
+import { HeaderContainer, OptionContainer, LogoContainer, OptionsContainer, LinkContainer } from './header.styles'
 
-import { HeaderContainer, OptionContainer, LogoContainer } from './header.styles'
-
-const Header = ({...props}) => (
-    <HeaderContainer {...props}>
-        <LogoContainer>LOGO</LogoContainer>
-        <OptionContainer>About Me</OptionContainer>
-        <OptionContainer>Projects</OptionContainer>
-        <OptionContainer>Skills</OptionContainer>
-        <OptionContainer>Contact</OptionContainer>
+const Header = ({headline, aboutme, projects, skills, contact}) => {
+    return(
+          
+    <HeaderContainer current={headline}>
+        {console.log(headline, aboutme, projects, skills, contact)}
+        <LogoContainer to='/'>
+            MINKI
+        </LogoContainer>
+        <OptionsContainer>
+            <LinkContainer  to='/aboutme'>
+                <OptionContainer current={aboutme}>About Me</OptionContainer>
+            </LinkContainer>
+            <LinkContainer to='/projects'>
+                <OptionContainer current={projects}>Projects</OptionContainer>
+            </LinkContainer>
+            <LinkContainer to='/skills'>
+                <OptionContainer current={skills}>Skills</OptionContainer>
+            </LinkContainer>
+            <LinkContainer to='/contact'>
+                <OptionContainer current={contact}>Contact</OptionContainer>
+            </LinkContainer>
+        </OptionsContainer>
     </HeaderContainer>
-    
-    
-)
+    )
+}
 
 export default Header

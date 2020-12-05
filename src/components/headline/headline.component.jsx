@@ -10,7 +10,7 @@ const Headline = () => {
     return (
         <HeadlineContainer>
             <div className='video'>
-                <video className='videoTag' autoPlay loop width='100%' height='10%' muted>
+                <video className='videoTag' autoPlay loop width='100%' muted>
                 <source src={videofile} type='video/mp4' />
                 </video>
             </div>
