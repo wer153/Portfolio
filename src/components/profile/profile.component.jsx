@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ProfileContainer, TitleContainer, ContentContainer, CardContainer} from './profile.styles'
+import {ProfileContainer, TitleContainer, ContentContainer, CardContainer, BubbleContainer, BubbleThought} from './profile.styles'
 import {strengths} from './strengths'
 import './profile.styles'
 
@@ -18,7 +18,14 @@ const Profile = () => {
                         </ContentContainer>
                     </CardContainer>
                 ))}
-            </ProfileContainer>   
+            </ProfileContainer>  
+            
+            <BubbleContainer>
+                <BubbleThought>Hello</BubbleThought>
+            </BubbleContainer>
+            
+
+             
         </ProfileContainer>
         
     )

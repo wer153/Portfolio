@@ -4,23 +4,26 @@ import { ReactComponent as Logo } from '../../assets/home.svg'
 const Header = ({headline, aboutme, projects, skills, contact}) => {
     return(
           
-    <HeaderContainer current={headline}>
+    <HeaderContainer current={!aboutme && !skills}>
         {console.log(headline, aboutme, projects, skills, contact)}
-        <LogoContainer to='/'>
+        {/* <LogoContainer to='/'>
             {!headline && <Logo/>}
-        </LogoContainer>
+        </LogoContainer> */}
         <OptionsContainer>
+            <LinkContainer  to='/'>
+                <OptionContainer current={headline}>HOME</OptionContainer>
+            </LinkContainer>
             <LinkContainer  to='/aboutme'>
-                <OptionContainer current={aboutme}>About Me</OptionContainer>
+                <OptionContainer current={aboutme}>ABOUT ME</OptionContainer>
             </LinkContainer>
             <LinkContainer to='/projects'>
-                <OptionContainer current={projects}>Projects</OptionContainer>
+                <OptionContainer current={projects}>PROJECTS</OptionContainer>
             </LinkContainer>
             <LinkContainer to='/skills'>
-                <OptionContainer current={skills}>Skills</OptionContainer>
+                <OptionContainer current={skills}>SKILLS</OptionContainer>
             </LinkContainer>
             <LinkContainer to='/contact'>
-                <OptionContainer current={contact}>Contact</OptionContainer>
+                <OptionContainer current={contact}>CONTACT</OptionContainer>
             </LinkContainer>
         </OptionsContainer>
     </HeaderContainer>
