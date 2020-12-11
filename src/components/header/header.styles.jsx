@@ -26,7 +26,6 @@ const getHeadlineHeaderStyle = props => {
     }
 }
 
-
 export const HeaderContainer = styled.div`
     
     position: fixed;
@@ -34,18 +33,12 @@ export const HeaderContainer = styled.div`
     height: 70px;
     width: 100%;
     border-bottom: 1px solid black;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     background: black;
     z-index:5;
 
     ${getHeadlineHeaderStyle}
-`
-export const LogoContainer = styled(Link)`
-    height: 100%;
-    width: auto;
-    padding: 10px;
-    margin-left: 20px;
 `
 
 export const OptionsContainer = styled.div`
