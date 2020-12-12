@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components'
+import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
     /* flex:1; */
@@ -8,9 +8,10 @@ export const ProjectsContainer = styled.div`
     flex-flow: column;
     align-items: center;
     justify-content: flex-end;
-    /* padding-top: 15%; */
-    padding-bottom: 5%;
 
+    padding-bottom: 5%;
+    font-size: 28px;
+    font-weight: bold;
 `
 
 export const ProjectContainer = styled.p`

@@ -1,22 +1,19 @@
 import styled from 'styled-components'
 
 export const SliderContainer = styled.div`
-    /* margin:auto; */
-    width:50vh;
-    height:50vw;
+    width:80vh;
+    height:80vh;
     margin:auto;
-    margin-top:25vh;
-
-    /* text-align: center; */
-    background-color:blue;
-    /* margin-bottom:100px; */
-    /* overflow: hidden; */
+    overflow: hidden;
 `
 
-export const DivContainer = styled.div`
-    object-fit:cover;
-    /* margin:0px auto; */
-    
-    /* text-align: center; */
-    /* width:100%; */
+export const SlideContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    margin: 15px;
+    font-size: 4em;
 `
