@@ -1,17 +1,19 @@
 import styled, {css} from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-    flex:0.7;
+    /* flex:1; */
     
-
+    width:30%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    justify-content: flex-end;
+    /* padding-top: 15%; */
+    padding-bottom: 5%;
+
 `
 
 export const ProjectContainer = styled.p`
-    color:white
+    color:gray;
+    
 `
