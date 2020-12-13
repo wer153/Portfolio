@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.57ed34ef.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.57ed34ef.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.95f22138.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.95f22138.js.map",
+    "static/js/2.2f12fa06.chunk.js": "/Portfolio/static/js/2.2f12fa06.chunk.js",
+    "static/js/2.2f12fa06.chunk.js.map": "/Portfolio/static/js/2.2f12fa06.chunk.js.map",
+    "static/js/3.9de5abfc.chunk.js": "/Portfolio/static/js/3.9de5abfc.chunk.js",
+    "static/js/3.9de5abfc.chunk.js.map": "/Portfolio/static/js/3.9de5abfc.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/Portfolio/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.2f12fa06.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2f12fa06.chunk.js.LICENSE.txt",
+    "static/media/black-background.0e4d50b6.jpg": "/Portfolio/static/media/black-background.0e4d50b6.jpg",
+    "static/media/clothe-shop.e1d8a769.PNG": "/Portfolio/static/media/clothe-shop.e1d8a769.PNG",
+    "static/media/keeper.b183b130.PNG": "/Portfolio/static/media/keeper.b183b130.PNG",
+    "static/media/mastermind.f51b07f7.PNG": "/Portfolio/static/media/mastermind.f51b07f7.PNG",
+    "static/media/seoulcity_originalfile.873b6ef1.mp4": "/Portfolio/static/media/seoulcity_originalfile.873b6ef1.mp4",
+    "static/media/weatherapp.4bc79e66.PNG": "/Portfolio/static/media/weatherapp.4bc79e66.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95f22138.js",
+    "static/js/2.2f12fa06.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.57ed34ef.chunk.js"
+  ]
+}
