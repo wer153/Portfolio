@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { ProjectsContainer, ProjectContainer } from './projects.styles'
 
 
-const Projects = () => (
+const Projects = () => {
+    const [hoverOn, setHoverOn] = useState(false)
+    const handleMouseHover = () => setHoverOn(true)
+
+    return (
     <ProjectsContainer>
-        <ProjectContainer>Clothe Shop</ProjectContainer>
+        <ProjectContainer onMouseOver={handleMouseHover}>Clothe Shop</ProjectContainer>
         <ProjectContainer>Keeper</ProjectContainer>
         <ProjectContainer>Mastermind</ProjectContainer>
         <ProjectContainer>Weather App</ProjectContainer>
-    </ProjectsContainer>
-)
+    </ProjectsContainer>)
+}
 
 export default Projects

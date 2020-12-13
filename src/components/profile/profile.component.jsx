@@ -20,9 +20,9 @@ const Profile = () => {
                 ))}
             </ProfileContainer>  
             
-            <BubbleContainer>
+            {/* <BubbleContainer>
                 <BubbleThought>Hello</BubbleThought>
-            </BubbleContainer>
+            </BubbleContainer> */}
             
 
              

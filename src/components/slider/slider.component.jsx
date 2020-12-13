@@ -1,8 +1,5 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel';
-// import AwesomeSlider from 'react-awesome-slider';
-// import 'react-awesome-slider/dist/styles.css'
-
 
 import {SliderContainer, SlideContainer} from './slider.styles'
 

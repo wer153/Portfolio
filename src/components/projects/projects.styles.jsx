@@ -1,15 +1,15 @@
+import { withTheme } from '@material-ui/core'
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
     /* flex:1; */
     
-    width:30%;
+    width:50%;
     display: flex;
     flex-flow: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
 
-    padding-bottom: 5%;
     font-size: 28px;
     font-weight: bold;
 `
@@ -17,4 +17,5 @@ export const ProjectsContainer = styled.div`
 export const ProjectContainer = styled.p`
     color:gray;
     
+    ${props=> (props.onMouseOver ? ()=>'color:white;':'color:gray;')}
 `
