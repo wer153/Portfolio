@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c5cef500.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c5cef500.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9e25a3fd.chunk.css",
+    "main.js": "/Portfolio/static/js/main.af5ea1eb.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.af5ea1eb.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e3db4981.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3db4981.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/Portfolio/static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.86e8d21d.chunk.js": "/Portfolio/static/js/2.86e8d21d.chunk.js",
-    "static/js/2.86e8d21d.chunk.js.map": "/Portfolio/static/js/2.86e8d21d.chunk.js.map",
+    "static/js/2.18ae2380.chunk.js": "/Portfolio/static/js/2.18ae2380.chunk.js",
+    "static/js/2.18ae2380.chunk.js.map": "/Portfolio/static/js/2.18ae2380.chunk.js.map",
     "static/js/3.d08d6ab6.chunk.js": "/Portfolio/static/js/3.d08d6ab6.chunk.js",
     "static/js/3.d08d6ab6.chunk.js.map": "/Portfolio/static/js/3.d08d6ab6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.d0fdb7d3.chunk.css.map": "/Portfolio/static/css/2.d0fdb7d3.chunk.css.map",
-    "static/css/main.ea1455b2.chunk.css.map": "/Portfolio/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.86e8d21d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.86e8d21d.chunk.js.LICENSE.txt",
+    "static/css/main.9e25a3fd.chunk.css.map": "/Portfolio/static/css/main.9e25a3fd.chunk.css.map",
+    "static/js/2.18ae2380.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.18ae2380.chunk.js.LICENSE.txt",
     "static/media/aws.1baaa078.svg": "/Portfolio/static/media/aws.1baaa078.svg",
     "static/media/black-background.0e4d50b6.jpg": "/Portfolio/static/media/black-background.0e4d50b6.jpg",
     "static/media/clothing-shop.e1d8a769.PNG": "/Portfolio/static/media/clothing-shop.e1d8a769.PNG",
@@ -27,6 +27,7 @@
     "static/media/javascript.e5c417b3.svg": "/Portfolio/static/media/javascript.e5c417b3.svg",
     "static/media/keeper.b183b130.PNG": "/Portfolio/static/media/keeper.b183b130.PNG",
     "static/media/kubernates.f91022b1.svg": "/Portfolio/static/media/kubernates.f91022b1.svg",
+    "static/media/linkedin.7defd339.svg": "/Portfolio/static/media/linkedin.7defd339.svg",
     "static/media/mastermind.f51b07f7.PNG": "/Portfolio/static/media/mastermind.f51b07f7.PNG",
     "static/media/mongodb.1aca075d.svg": "/Portfolio/static/media/mongodb.1aca075d.svg",
     "static/media/nodejs.e5557285.svg": "/Portfolio/static/media/nodejs.e5557285.svg",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.e3db4981.js",
     "static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.86e8d21d.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.c5cef500.chunk.js"
+    "static/js/2.18ae2380.chunk.js",
+    "static/css/main.9e25a3fd.chunk.css",
+    "static/js/main.af5ea1eb.chunk.js"
   ]
 }
