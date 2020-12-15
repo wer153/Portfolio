@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9e25a3fd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.af5ea1eb.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.af5ea1eb.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6e8725c8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6e8725c8.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e3db4981.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3db4981.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/Portfolio/static/css/2.d0fdb7d3.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/keeper.b183b130.PNG": "/Portfolio/static/media/keeper.b183b130.PNG",
     "static/media/kubernates.f91022b1.svg": "/Portfolio/static/media/kubernates.f91022b1.svg",
     "static/media/linkedin.7defd339.svg": "/Portfolio/static/media/linkedin.7defd339.svg",
+    "static/media/mail.eee1baa7.svg": "/Portfolio/static/media/mail.eee1baa7.svg",
     "static/media/mastermind.f51b07f7.PNG": "/Portfolio/static/media/mastermind.f51b07f7.PNG",
     "static/media/mongodb.1aca075d.svg": "/Portfolio/static/media/mongodb.1aca075d.svg",
     "static/media/nodejs.e5557285.svg": "/Portfolio/static/media/nodejs.e5557285.svg",
@@ -43,6 +44,6 @@
     "static/css/2.d0fdb7d3.chunk.css",
     "static/js/2.18ae2380.chunk.js",
     "static/css/main.9e25a3fd.chunk.css",
-    "static/js/main.af5ea1eb.chunk.js"
+    "static/js/main.6e8725c8.chunk.js"
   ]
 }
