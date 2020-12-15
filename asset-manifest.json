@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.7309dfe6.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.7309dfe6.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.dae1b8b9.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.dae1b8b9.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e3db4981.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3db4981.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/Portfolio/static/css/2.d0fdb7d3.chunk.css",
@@ -17,9 +17,11 @@
     "static/media/black-background.0e4d50b6.jpg": "/Portfolio/static/media/black-background.0e4d50b6.jpg",
     "static/media/clothing-shop.e1d8a769.PNG": "/Portfolio/static/media/clothing-shop.e1d8a769.PNG",
     "static/media/github.e7ab8675.svg": "/Portfolio/static/media/github.e7ab8675.svg",
+    "static/media/javascript.e5c417b3.svg": "/Portfolio/static/media/javascript.e5c417b3.svg",
     "static/media/keeper.b183b130.PNG": "/Portfolio/static/media/keeper.b183b130.PNG",
     "static/media/mastermind.f51b07f7.PNG": "/Portfolio/static/media/mastermind.f51b07f7.PNG",
     "static/media/picture.72970e02.jpg": "/Portfolio/static/media/picture.72970e02.jpg",
+    "static/media/python.e3e93145.svg": "/Portfolio/static/media/python.e3e93145.svg",
     "static/media/seoulcity_originalfile.fe78908b.mp4": "/Portfolio/static/media/seoulcity_originalfile.fe78908b.mp4",
     "static/media/weatherapp.4bc79e66.PNG": "/Portfolio/static/media/weatherapp.4bc79e66.PNG"
   },
@@ -28,6 +30,6 @@
     "static/css/2.d0fdb7d3.chunk.css",
     "static/js/2.86e8d21d.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.7309dfe6.chunk.js"
+    "static/js/main.dae1b8b9.chunk.js"
   ]
 }
