@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.78cf57da.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.78cf57da.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.1848dce9.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1848dce9.js.map",
-    "static/js/2.c66216bb.chunk.js": "/Portfolio/static/js/2.c66216bb.chunk.js",
-    "static/js/2.c66216bb.chunk.js.map": "/Portfolio/static/js/2.c66216bb.chunk.js.map",
-    "static/js/3.d60fde49.chunk.js": "/Portfolio/static/js/3.d60fde49.chunk.js",
-    "static/js/3.d60fde49.chunk.js.map": "/Portfolio/static/js/3.d60fde49.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.b7057a19.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b7057a19.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e3db4981.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3db4981.js.map",
+    "static/css/2.d0fdb7d3.chunk.css": "/Portfolio/static/css/2.d0fdb7d3.chunk.css",
+    "static/js/2.86e8d21d.chunk.js": "/Portfolio/static/js/2.86e8d21d.chunk.js",
+    "static/js/2.86e8d21d.chunk.js.map": "/Portfolio/static/js/2.86e8d21d.chunk.js.map",
+    "static/js/3.d08d6ab6.chunk.js": "/Portfolio/static/js/3.d08d6ab6.chunk.js",
+    "static/js/3.d08d6ab6.chunk.js.map": "/Portfolio/static/js/3.d08d6ab6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
+    "static/css/2.d0fdb7d3.chunk.css.map": "/Portfolio/static/css/2.d0fdb7d3.chunk.css.map",
     "static/css/main.ea1455b2.chunk.css.map": "/Portfolio/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.c66216bb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c66216bb.chunk.js.LICENSE.txt",
+    "static/js/2.86e8d21d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.86e8d21d.chunk.js.LICENSE.txt",
     "static/media/black-background.0e4d50b6.jpg": "/Portfolio/static/media/black-background.0e4d50b6.jpg",
     "static/media/clothing-shop.e1d8a769.PNG": "/Portfolio/static/media/clothing-shop.e1d8a769.PNG",
     "static/media/github.e7ab8675.svg": "/Portfolio/static/media/github.e7ab8675.svg",
@@ -21,9 +23,10 @@
     "static/media/weatherapp.4bc79e66.PNG": "/Portfolio/static/media/weatherapp.4bc79e66.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.1848dce9.js",
-    "static/js/2.c66216bb.chunk.js",
+    "static/js/runtime-main.e3db4981.js",
+    "static/css/2.d0fdb7d3.chunk.css",
+    "static/js/2.86e8d21d.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.78cf57da.chunk.js"
+    "static/js/main.b7057a19.chunk.js"
   ]
 }
